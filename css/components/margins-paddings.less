@@ -1,0 +1,16 @@
+@dm: 10px;
+
+.margins(@top: @dm, @right: @dm, @bottom: @dm, @left: @dm / 2 ) {
+  margin-top: @top;
+  margin-right: @right;
+  margin-bottom: @bottom;
+  margin-left: @left;
+}
+
+.default-margin {
+  .margins();
+}
+
+.lm-25 {
+  .margins(@left: 25px)
+}

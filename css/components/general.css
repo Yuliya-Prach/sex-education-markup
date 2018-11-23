@@ -1,0 +1,16 @@
+body {
+  margin: 2% auto;
+  width: 65%;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  width: 50px;
+}
+/*# sourceMappingURL=general.css.map */
